@@ -476,3 +476,10 @@ newman run Rest_Students_Details_API.postman_collection.json -e Rest_Students_De
 ```
 
 ## Newman Report Summary:
+![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/a9e55a75-10f8-408a-a032-535494ed7735)
+![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/a19412ee-6f7d-4192-b56a-975599f4abd9)
+![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/42a71705-c902-45b9-bf8b-1eb9e7e89884)
+![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/e0f53ed8-411a-4705-af85-345275d17bac)
+
+
+
