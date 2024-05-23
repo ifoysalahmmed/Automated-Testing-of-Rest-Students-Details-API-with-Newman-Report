@@ -79,18 +79,18 @@ git clone https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-De
 ```console
 [
     {
-        "id": 10279307,
-        "first_name": "Ms.",
-        "middle_name": "Melody",
-        "last_name": "Sanford",
-        "date_of_birth": "2024-05-22"
+        "id": 10279320,
+        "first_name": "ABC",
+        "middle_name": "XYZ",
+        "last_name": "LMN",
+        "date_of_birth": "01/11/1998"
     },
     {
-        "id": 10279306,
-        "first_name": "T5",
-        "middle_name": "M5",
-        "last_name": "L5",
-        "date_of_birth": "1990-02-03 00:00:00"
+        "id": 10279319,
+        "first_name": "ABC",
+        "middle_name": "XYZ",
+        "last_name": "LMN",
+        "date_of_birth": "01/11/1998"
     },
     So on...
 ]
@@ -139,11 +139,11 @@ pm.environment.set("DateOfBirth", dateOfBirth);
 
 ```console
 {
-    "id": 10279308,
-    "first_name": "Catherine",
-    "middle_name": "CatherineCremin",
-    "last_name": "Cremin",
-    "date_of_birth": "15/06/2016"
+    "id": 10279321,
+    "first_name": "Alf",
+    "middle_name": "AlfParker",
+    "last_name": "Parker",
+    "date_of_birth": "09/01/1984"
 }
 ```
 
@@ -159,11 +159,11 @@ pm.environment.set("DateOfBirth", dateOfBirth);
 {
     "status": "true",
     "data": {
-        "id": 10279308,
-        "first_name": "Catherine",
-        "middle_name": "CatherineCremin",
-        "last_name": "Cremin",
-        "date_of_birth": "15/06/2016"
+        "id": 10279321,
+        "first_name": "Alf",
+        "middle_name": "AlfParker",
+        "last_name": "Parker",
+        "date_of_birth": "09/01/1984"
     }
 }
 ```
@@ -229,11 +229,11 @@ pm.environment.set("DateOfBirth", dateOfBirth);
 {
     "status": "true",
     "data": {
-        "id": 10279308,
-        "first_name": "Florence",
-        "middle_name": "FlorenceHarvey",
-        "last_name": "Harvey",
-        "date_of_birth": "06/06/2002"
+        "id": 10279321,
+        "first_name": "Hilma",
+        "middle_name": "HilmaTromp",
+        "last_name": "Tromp",
+        "date_of_birth": "03/10/2008"
     }
 }
 ```
@@ -387,44 +387,44 @@ pm.environment.set("Mobile2", mobile2);
 {
     "status": "true",
     "data": {
-        "first_name": "Florence",
-        "middle_name": "FlorenceHarvey",
-        "last_name": "Harvey",
-        "date_of_birth": "06/06/2002",
+        "first_name": "Hilma",
+        "middle_name": "HilmaTromp",
+        "last_name": "Tromp",
+        "date_of_birth": "03/10/2008",
         "TechnicalDetails": [
             {
-                "id": 794037,
+                "id": 794045,
                 "language": [
-                    "Ada",
-                    "Perl"
+                    "Rust",
+                    "Java"
                 ],
                 "yearexp": "1 year",
                 "lastused": "Recent",
-                "st_id": "10279308"
+                "st_id": "10279321"
             }
         ],
         "Address": [
             {
                 "Permanent_Address": {
-                    "House_Number": "541",
-                    "City": "Kuvalisview",
-                    "State": "Kuvalisview",
-                    "Country": "San Marino",
+                    "House_Number": "39",
+                    "City": "Glendale",
+                    "State": "Glendale",
+                    "Country": "Mayotte",
                     "PhoneNumber": [
                         {
-                            "Std_Code": "3019",
-                            "Home": "320-992-7604",
-                            "Mobile": "302-798-0984"
+                            "Std_Code": "6140",
+                            "Home": "554-840-8743",
+                            "Mobile": "688-851-4917"
                         },
                         {
-                            "Std_Code": "3037",
-                            "Home": "756-933-4009",
-                            "Mobile": "736-987-8256"
+                            "Std_Code": "0118",
+                            "Home": "589-350-8931",
+                            "Mobile": "801-631-7576"
                         }
                     ]
                 },
                 "Current_Address": null,
-                "stId": "10279308"
+                "stId": "10279321"
             }
         ]
     }
@@ -476,10 +476,8 @@ newman run Rest_Students_Details_API.postman_collection.json -e Rest_Students_De
 ```
 
 ## Newman Report Summary:
+
 ![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/a9e55a75-10f8-408a-a032-535494ed7735)
 ![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/a19412ee-6f7d-4192-b56a-975599f4abd9)
 ![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/42a71705-c902-45b9-bf8b-1eb9e7e89884)
 ![Newman Report Summary](https://github.com/ifoysalahmmed/Automated-Testing-of-Rest-Students-Details-API-with-Newman-Report/assets/68318362/e0f53ed8-411a-4705-af85-345275d17bac)
-
-
-
